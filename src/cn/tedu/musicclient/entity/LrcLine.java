@@ -1,8 +1,6 @@
 package cn.tedu.musicclient.entity;
 
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 /**
  * 描述一行歌词 [00:00.91]阮经天：许多年过去

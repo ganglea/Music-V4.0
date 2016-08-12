@@ -1,6 +1,5 @@
 package cn.tedu.musicclient.util;
 
-import android.content.Intent;
 
 public class Consts {
 

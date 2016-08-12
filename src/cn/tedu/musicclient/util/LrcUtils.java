@@ -1,10 +1,7 @@
 package cn.tedu.musicclient.util;
 
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
@@ -40,7 +37,6 @@ public class LrcUtils {
 	/**
 	 * 读取某个文件获取输入流 
 	 * @param path
-	 * @return
 	 */
 	public static InputStream loadLrcByFilePath(String path) throws IOException{
 		File file = new File(path);
